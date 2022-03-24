@@ -81,13 +81,13 @@ void loop() {
 
    if ( (millis() - delayIntervalo) > intervalo ) {
 
-      Serial.print(dadosRF.umidade);
+      Serial.println(dadosRF.umidade);
 
       //Serial.print(dadosRF.temperatura);
 
-      Serial.print(dadosRF.temperaturaDHT);
+      Serial.println(dadosRF.temperaturaDHT);
 
-      Serial.print(dadosRF.pressao);
+      Serial.println(dadosRF.pressao);
 
       delayIntervalo = millis();
    };
