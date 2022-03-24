@@ -83,7 +83,7 @@ void loop() {
 
       Serial.print(dadosRF.umidade);
 
-      Serial.print(dadosRF.temperatura);
+      //Serial.print(dadosRF.temperatura);
 
       Serial.print(dadosRF.temperaturaDHT);
 
